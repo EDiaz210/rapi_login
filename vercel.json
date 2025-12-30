@@ -2,11 +2,6 @@
   "version": 2,
   "buildCommand": "echo 'No build needed'",
   "public": true,
-  "functions": {
-    "api/**/*.js": {
-      "runtime": "nodejs@24.11.0"
-    }
-  },
   "rewrites": [
     { "source": "/verify-email", "destination": "/verify-email.html" },
     { "source": "/reset-password", "destination": "/reset-password.html" }
