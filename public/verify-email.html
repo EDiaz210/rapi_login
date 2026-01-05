@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verificación de Email - Login Pro</title>
+    <title>Verificación de Email - TibyFood</title>
     <style>
         * {
             margin: 0;
@@ -69,7 +69,7 @@
         }
 
         .button {
-            background: #6C5CE7;
+            background: #0066CC;
             color: white;
             border: none;
             padding: 16px 32px;
@@ -83,7 +83,7 @@
         }
 
         .button:hover {
-            background: #5f4fd1;
+            background: #0052A3;
         }
 
         .button:disabled {
@@ -178,11 +178,11 @@
         }
 
         function openApp() {
-            // Deep link a la aplicación
-            window.location.href = 'loginpro://verified';
+            // Deep link a la aplicación TibyFood
+            window.location.href = 'tibyfood://home';
             // Fallback después de 2 segundos
             setTimeout(() => {
-                alert('Por favor abre la aplicación Login Pro manualmente.');
+                alert('Por favor abre la aplicación TibyFood manualmente.');
             }, 2000);
         }
 
